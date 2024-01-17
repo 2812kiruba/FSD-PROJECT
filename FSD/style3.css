@@ -1,0 +1,112 @@
+#taskbar {
+    background-image: linear-gradient(to left, rgb(43, 42, 42), rgb(43, 42, 42));
+    position: fixed;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    height: 60px;
+    overflow: hidden;
+z-index: 2;
+}
+
+#taskbar a {
+    display: inline-block;
+    padding: 19px 18px;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    font-family: sans-serif;
+    z-index: 2;
+}
+
+#taskbar a:hover {
+    background-color: green;
+
+}
+
+.logo {
+    float: right;
+    margin-right: 100px;
+    color: beige;
+    font-family: sans-serif;
+    padding-top: -60px;
+}
+
+span {
+    color: rgb(30, 205, 68);
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.machine-card {
+    background-color: whitesmoke;
+    border: 1px solid rgb(168, 162, 162);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.1);
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+
+}
+
+.machine-card:hover {
+    transform: scale(1.05);
+}
+
+.machine-card img {
+    width: 690px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.machine-details {
+    padding: 15px;
+}
+
+td {
+    padding: 30px;
+}
+
+
+.rent-button {
+    display: block;
+    width: 99%;
+    padding: 5px;
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.rent-button:hover {
+    background-color: rgb(33, 141, 33);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    bottom: 0;
+    width: 99%;
+    position: fixed;
+    height: 5dvh;
+
+}

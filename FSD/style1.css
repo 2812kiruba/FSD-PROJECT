@@ -1,0 +1,175 @@
+ *{
+    margin: 0;
+   padding:0;
+    font-family: sans-serif;
+ }
+ #taskbar {
+     background-image: linear-gradient(to left, rgb(43, 42, 42),rgb(43, 42, 42));
+     position: fixed;
+     width: 100%;
+     text-align: left;
+     display: inline-block;
+     height: 55px;
+     overflow: hidden;
+   z-index: 2;
+    
+ }
+
+ #taskbar a {
+     display: inline-block;
+     padding: 18px 18px;
+     text-decoration: none;
+     color: white;
+     overflow: hidden;
+   z-index: 2;
+
+ }
+
+ #taskbar a:hover {
+     background-color:green;
+
+ }
+ .logo{
+    float:right;
+    margin-right: 100px;
+    color: beige;
+    padding: 5px 5px;
+
+ }
+ span{
+    color:rgb(30, 205, 68);
+ }
+ .banner{
+    width:100%;
+    height:80vh;
+    background-image:url(./images/machine.jpg);
+    background-size:cover; 
+    background-position: center; 
+   display: inline-block;
+ }
+.welcome {
+   padding: 60px;
+   text-align: center;
+   background-color:rgb(39, 106, 39);
+   color: rgb(244, 236, 236);
+   font-size: 30px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   outline-style: ridge;
+   outline-color:rgb(209, 203, 203);
+   outline-offset: -37px;
+   outline-width:8px;
+   
+}
+#start{
+
+   font-style: italic;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+ hr{
+  width:99%;
+  height:8px;
+  padding-right:10px;
+  padding-left: 10px;
+  background-color: rgb(90, 91, 90);
+   display: inline-block;
+
+ }
+ .head2{
+   margin-left: 10%;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 900;
+   font-size: xx-large;
+   text-align: center;
+   display: inline-block;
+   color:rgb(244, 240, 240);
+   background-image:linear-gradient(to right, rgb(69, 134, 78), rgb(15, 94, 32));
+   width: 80%;
+   height:1.30cm;
+ }
+ #obj{
+   font-family:'Times New Roman', Times, serif;
+   font-size:larger;
+   background-image: linear-gradient(to left, rgb(65, 64, 64), rgb(39, 37, 37));
+   padding:20px;
+   justify-content: left;
+   
+}
+td{
+   color:white;
+   padding:25px;
+   outline-style:ridge; 
+   outline-offset: -9px;
+    outline-color: black;
+    outline-width:4px;
+   }
+   #obj:hover{
+      transform:scale(1.05);
+   }
+   table.objectives{
+      width:90%;
+      margin-left: 6%;
+   }
+   .none{
+      text-decoration: none;
+      color:aliceblue
+   }
+   
+   .logos{
+      overflow:hidden;
+      background-color: rgb(171, 234, 171);
+       white-space:nowrap;
+   }
+   @keyframes slide{
+      from{
+         transform:translateX(0);
+      }
+      to{
+         transform:translateX(-100%);
+      }
+   }
+   .logos:hover .logos-slide{
+      animation-play-state:paused;
+   }
+      .logos-slide{
+        display:inline-block;
+         animation: 60s slide infinite linear;
+        
+      }
+    .logos-slide img{
+      height:200px;
+     
+      
+    }
+       .rent-button {
+          display: block;
+          width: 99%;
+          padding: 5px;
+          background-color: #4caf50;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in-out;
+       }
+   
+       .rent-button:hover {
+          background-color: rgb(33, 141, 33);
+       }
+   
+       a {
+          text-decoration: none;
+          color: black;
+       }
+              .machine-card:hover {
+                 transform: scale(1.05);
+              }
+      
+              .machine-card img {
+                 width: 350px;
+                 height: 190px;
+                 object-fit: cover;
+              }
+    h3{
+      text-align: center;
+    }
